@@ -7,6 +7,7 @@
 // note: #define 和 const 的用法是有区别的，const的用法更多样，
 // 具体可以参考：https://www.codersrc.com/archives/9123.html
 //※※※※※※※※※※
+<<<<<<< HEAD
 //#define UART_BOUND 115200
 
 //const unsigned int uart_number = 1;		//只读，无法修改
@@ -96,4 +97,64 @@
 //    return 0;
 //}
 
+=======
+#define UART_BOUND 115200
+
+const unsigned int uart_number = 1;		//只读，无法修改
+
+
+
+//int main(void)
+//{
+//    int age;
+//    float assets;
+//    char pet[30];
+//
+//    printf("Enter your age,assets,and favorite pet.\n");
+//
+//    scanf("%d %f", &age, &assets);
+//
+//    scanf("%s", pet);
+//
+//    printf("%d $%.2f %s\n", age, assets, pet);
+//
+//    return 0;
+//}
+
+//	printf()的*修饰符 ，
+//	用于修饰 字段宽度 ，对应的*需要对应的参数指明
+// 适合用于不同情况下，改变*对应的变量来打印不同长度的内容
+//int main(void)
+//{
+//	unsigned width, precision;
+//	int number = 256;
+//	double weight = 242.5;
+//
+//	printf("Enter a field width:\n");
+//	scanf("%d",&width);
+//	printf("the number is : %*d\n",width,number);
+//	printf("Now enter a width and a precision:\n");
+//	scanf("%d %d",&width,&precision);
+//	printf("Weight = %*.*f\n",width,precision,weight);
+//	printf("Done!\n");
+//}
+
+//	Scanf()的*修饰符
+//	用于跳过相应的输入项，故也无需对应参数。
+//int main(void)
+//{
+//	int n;
+//
+//	printf("Please enter three integers:\n");
+//
+//	scanf("%*d %*d %d",&n);
+//
+//	printf("The last integers was %d \n",n);
+//
+//	return 0;
+//}
+
+
+
+>>>>>>> f2a5bb14fd6aedda711ebe27ddf89b4d7076d28a
 
